@@ -16,5 +16,14 @@ public class OperadoresAritmeticos {
         System.out.println("El resultado de la multiplicación es: " + resultadoMultiplicacion);
         System.out.println("El resultado de la división es: " + resultadoDivision);
 
+        //Módulo
+        int numEvaluar = 115;
+
+        if(numEvaluar % 2 == 0) {
+            System.out.println("El numero ingresado: " + numEvaluar + " es par");
+        } else {
+            System.out.println("El numero ingresado: " + numEvaluar + " es impar");
+        }
+
     }
 }
