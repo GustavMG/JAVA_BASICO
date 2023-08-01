@@ -5,7 +5,7 @@ public class OperadoresLogicos {
         /**
          * Los operadores lógicos se utilizan para combinar valores booleanos y nos devuelven un
          * 		 resultado evrdadero, falso o nulo
-         * 		 
+         *
          * 		 && --> and (Y)
          * 		 || --> or (O)	(el caracter sale con alt+124
          * 		  ! --> not (No)
