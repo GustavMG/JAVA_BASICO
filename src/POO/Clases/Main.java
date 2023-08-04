@@ -100,5 +100,38 @@ public class Main {
          * es para REUTILIZAR código y NO REPETIR lineas ya qe esto hace mas largo el programa.
          */
 
+        //TODO: Modificador static
+        /**
+         * El modificador static nos indica que un metodo, como por ejemplo aqui el método void main(String[] args) { }
+         * pertenece a la clase en la que está, que en este caso es la class Main { } y NO a los objetos de la misma,
+         * es decir que si se intancia esta clase NO se podrá trabajar individualmente con este método en cada objeto.
+         *
+         * public class Main {
+         *          public static void main(String[] args) { }
+         *          }
+         *
+         * Es por esto que aqui podemos ejecutar metodos en la misma clase mientras pongamos el static SIN necesidad de hacer
+         * una instancia de la clase como seria Main main = new Main();
+         *
+         * Ennresumen: static lo que nos permite es indicar que un atributo o un método pertenece a una clase, es decir a la plantilla o padre
+         * ¿Cuando podriamos crear static?
+         *  cuando creamos constantes y NO queremos crear objetos para acceder a esas constantes por ejemplo una
+         *  CONSTANTE_PI o una CONSTANTE_GRAVEDAD
+         *
+         */
+        //TODO: Modificadres de acceso
+        /**
+         * -public
+         * -private
+         * -protected
+         * -default
+         *
+         * Con esto podemos evitar:
+         *  Reasignación de valores por ejemplo:
+         *      float cuenta = 150,000.05f;
+         *      cuenta = 00.00f;
+         *
+         *    Aqui es donde entra el uso de los getters y setters
+         */
     }
 }
