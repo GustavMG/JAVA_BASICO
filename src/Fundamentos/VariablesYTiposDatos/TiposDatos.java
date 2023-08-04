@@ -34,5 +34,10 @@ public class TiposDatos {
         //3. Texto
         char datoChar = 'G'; // Tamaño: 16bits ValMin: '\u0000' ValMax: '\uffff'
 
+        //4. Tipo envoltorio
+        String nombre = "Gustavo";
+        Integer numero = null;
+        Long numero2 = 2L;
+
     }
 }
