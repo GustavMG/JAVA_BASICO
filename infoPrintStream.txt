@@ -1,0 +1,2 @@
+Este texto se ha creado en el archivo txt --> infoPrintStream.txt
+Utilizando la clas PrintStream
